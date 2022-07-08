@@ -19,13 +19,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import junit.framework.Assert;
 
 public class FunctinalityValidation_LinearWay {
-	
+	//test push 2
 	WebDriver driver;
 	WebDriverWait wait;
 	String url ="https://www.rahulshettyacademy.com/AutomationPractice/";
 	
 	@Before
 	public void setUp()
+	//test push
 	{
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "/chromedriver.exe");
 		driver = new ChromeDriver();
